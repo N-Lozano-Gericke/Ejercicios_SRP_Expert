@@ -1,5 +1,6 @@
 ﻿using System;
-//Cumple con SRP porque no hace mas que realcionar el libro con el lugar en donde se almacena.
+//No cumple con SRP porque el realiza una tarea que perfectamente podria realizar otra.(Almazenar libro)
+//No vumple Expert porque conoce mas de lo que deberia (en este caso tiene el AlmacenarLibro como extra)
 namespace SRP
 {
     public class Libro
