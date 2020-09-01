@@ -1,5 +1,6 @@
 using System;
-//Expert pero no SRP  ya que tiene mas de una razon de cambio
+//No es SRP ya que tiene mas de una razon de cambio
+//Y con el Expert existe el problema que utiliza informacion de Alfajor para hacer el precio en ves de que lo haga alfajor.
 namespace Expert_SRP
 {
     public class Kiosco 
