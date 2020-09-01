@@ -1,5 +1,5 @@
 using System;
-
+//Expert pero no SRP  ya que tiene mas de una responsabilidad
 namespace Expert_SRP
 {
     public class Kiosco 
