@@ -1,5 +1,5 @@
 ﻿using System;
-
+//Cumple con SRP porque no hace mas que realcionar el libro con el lugar en donde se almacena.
 namespace SRP
 {
     public class Libro
