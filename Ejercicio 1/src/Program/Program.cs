@@ -19,3 +19,5 @@ namespace Expert_SRP
         }
     }
 }
+//No cumple con Expert porque la clase alfajor tiene toda la informacion para realizar el precio de los alfajores, pero ese calculo lo realiza la clase kiosco 
+//No SRP ya que kiosco tiene más de una razon de cambio
