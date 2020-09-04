@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
-//Comple con SRC
-//No cumple con Expert
+//No cumple con SRC porque hay mas de una razon de cambio, dichos cambio surgen porque valida mas de un dato.
+//Cumple con Expert ya que tiene toda la informacion necesaria para poder realizar su tarea
 namespace Library
 {
     public class AppointmentService
