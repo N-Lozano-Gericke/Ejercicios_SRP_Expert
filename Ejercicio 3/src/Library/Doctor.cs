@@ -1,11 +1,11 @@
 using System;
 using System.Text;
 
-namespace InformacionDoctor
+namespace Library
 {
     public class Doctor
     {
-        public static string CreateAppointment(string name, string id, string phoneNumber, string doctorName)
+        public static string CreateAppointment(string name, string id, string especialidad, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
             Boolean isValid = true;

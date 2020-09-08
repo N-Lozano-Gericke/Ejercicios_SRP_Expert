@@ -3,9 +3,9 @@ using System.Text;
 
 namespace Library
 {
-    public class AppointmentService
+    public class Consulta
     {
-        public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
+        public static string CreateAppointment(string id, DateTime date, string appoinmentPlace)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
             Boolean isValid = true;
