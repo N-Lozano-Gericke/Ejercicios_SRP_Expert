@@ -1,5 +1,6 @@
 using System;
-
+//cumple con SRP
+//Cumple con Expert
 namespace Expert_SRP
 {
     public class Alfajor 
